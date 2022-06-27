@@ -23,6 +23,11 @@ const commentSchema = new mongoose.Schema(
             type : Number,
             default : 5,
             enum : [1,2,3,4,5]
+        },
+        commentTitle : {
+            type : Number,
+            default : 0,
+            enum: [0,1]
         }
     },
     { timestamps: true }
